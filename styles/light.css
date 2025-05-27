@@ -7,27 +7,27 @@
 :root.theme-light {
   --page-bg-image: url(../images/cover-image-light.png);
   --accent-color: #353430;
-  --bg-title-color: #FF8DCB;
-  --main-title-color: #FFC2E6;
-  --text-shadow: #FF8DCB;
+  --bg-title-color: #ff8dcb;
+  --main-title-color: #ffc2e6;
+  --text-shadow: #ff8dcb;
   --subtitle-text-color: #353430;
-  --section-title-color: #353430; 
-  --paragraf-text-color: #353430; 
+  --section-title-color: #353430;
+  --paragraf-text-color: #353430;
   --button-outline-color: #353430;
 }
-
 
 .theme-light .record {
   visibility: hidden;
 }
 
 .theme-light .header__theme-menu-button.header__theme-menu-button_type_dark {
-  outline: none;  
+  outline: none;
 }
 
-.theme-light .header__theme-menu-button.header__theme-menu-button_type_light.header__theme-menu-button_active {
+.theme-light
+  .header__theme-menu-button.header__theme-menu-button_type_light.header__theme-menu-button_active {
   outline: 1px solid var(--button-outline-color);
-  outline-offset: 3px;  
+  outline-offset: 3px;
 }
 
 .theme-light .header__theme-menu-button:hover {
@@ -36,5 +36,5 @@
 }
 
 .theme-light .header__theme-menu-button:focus-visible {
-  outline: none;  
+  outline: none;
 }

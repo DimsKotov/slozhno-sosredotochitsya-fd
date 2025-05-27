@@ -4,15 +4,14 @@
   переключая тему
 */
 
-:root.theme-dark {  
-  --accent-color: #FF0070;
-  --bg-title-color: #FF0070;
-  --text-shadow: #FF0070; 
+:root.theme-dark {
+  --accent-color: #ff0070;
+  --bg-title-color: #ff0070;
+  --text-shadow: #ff0070;
   --subtitle-text-color: #000028;
-  --section-title-color:#FF0070;     
-  --main-title-color: #DB00FF;
-  --paragraf-text-color: #F1B2CE;
-  --button-outline-color: #FF0070;
-  --page-bg-image: url(../images/cover-image-dark.png);  
+  --section-title-color: #ff0070;
+  --main-title-color: #db00ff;
+  --paragraf-text-color: #f1b2ce;
+  --button-outline-color: #ff0070;
+  --page-bg-image: url(../images/cover-image-dark.png);
 }
-
