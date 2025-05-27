@@ -1,4 +1,15 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {    
+  --main-margin: 10px;
+   --main-font-size: 18px;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --accent-color: #FF0070;
+  --bg-title-color: #FF0070;
+  --text-shadow: #FF0070; 
+  --subtitle-text-color: #000028;
+  --section-title-color: #FF0070;     
+  --main-title-color: #DB00FF;
+  --paragraf-text-color: #F1B2CE;
+  --button-outline-color: #FF0070;
+  --page-bg-image: url(../images/cover-image-dark.png);  
+  }

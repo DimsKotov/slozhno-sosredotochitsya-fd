@@ -4,13 +4,15 @@
   переключая тему
 */
 
-:root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+:root.theme-dark {  
+  --accent-color: #FF0070;
+  --bg-title-color: #FF0070;
+  --text-shadow: #FF0070; 
+  --subtitle-text-color: #000028;
+  --section-title-color:#FF0070;     
+  --main-title-color: #DB00FF;
+  --paragraf-text-color: #F1B2CE;
+  --button-outline-color: #FF0070;
+  --page-bg-image: url(../images/cover-image-dark.png);  
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
