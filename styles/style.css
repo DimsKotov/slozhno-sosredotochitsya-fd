@@ -29,6 +29,8 @@
   grid-template-rows: repeat(2, min-content);
 }
 
+
+
 .decorated-zone::before {
   content: "";
   position: absolute;
@@ -229,7 +231,7 @@
   text-shadow: 3px 3px 0 var(--text-shadow);
   margin-inline-start: var(--main-margin);
   margin-inline-end: var(--main-margin);
-  padding-block-start: 10vh;
+  padding-block-start: 80px;
 }
 
 .footer::before {
@@ -327,7 +329,7 @@
   }
 
   .section_subtitle-additional-indentation {
-    margin-block-end: 2.4vh;
+    margin-block-end: 20px;
   }
 
   .section_subtitle.main__section-title-second {
@@ -382,7 +384,7 @@
   }
 
   .footer__title {
-    padding-block-start: 15vh;
+    padding-block-start: 120px;
   }
 
   .footer.decorated-zone::before {
@@ -522,10 +524,6 @@
   .footer__title {
     font-size: clamp(9.8125rem, 3.1971rem + 10.3365vw, 12.5rem);
     padding-block-start: 0;
-  }
-
-  .main {
-    margin-block-end: 7.2vh;
   }
 
   .footer.decorated-zone::before {
