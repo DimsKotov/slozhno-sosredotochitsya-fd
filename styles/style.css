@@ -87,7 +87,7 @@
   margin-inline-end: 4.6vw;
 }
 
-.header__theme-menu-button:not(.header__theme-menu-button_active):hover {  
+.header__theme-menu-button:not(.header__theme-menu-button_active):hover {
   outline: 1px solid var(--button-outline-color-hover);
   outline-offset: 3px;
 }
@@ -518,7 +518,7 @@
   }
 
   .footer.decorated-zone::before {
-    inset: 2.7% 0 0 95.57%;
+    inset: 2.7% 0 0 95.55%;
   }
 
   .footer.decorated-zone::after {
