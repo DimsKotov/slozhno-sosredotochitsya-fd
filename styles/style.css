@@ -87,8 +87,7 @@
   margin-inline-end: 4.6vw;
 }
 
-.header__theme-menu-button:not(.header__theme-menu-button_active):hover {
-  outline: none;
+.header__theme-menu-button:not(.header__theme-menu-button_active):hover {  
   outline: 1px solid var(--button-outline-color-hover);
   outline-offset: 3px;
 }
