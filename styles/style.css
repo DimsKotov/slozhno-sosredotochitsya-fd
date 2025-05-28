@@ -16,7 +16,7 @@
   grid-template-rows: repeat(2, min-content);
   justify-content: center;
   min-block-size: 668px;
-  margin-block-end: 40px;    
+  margin-block-end: 40px;
 }
 
 .header__theme-menu {
@@ -26,10 +26,8 @@
 
 .header__section {
   display: grid;
-  grid-template-rows: repeat(2, min-content);    
+  grid-template-rows: repeat(2, min-content);
 }
-
-
 
 .decorated-zone::before {
   content: "";
@@ -52,7 +50,7 @@
 }
 
 .record {
-  max-block-size: 1px;  
+  max-block-size: 1px;
 }
 
 .record::before {
@@ -219,7 +217,7 @@
   grid-template-columns: 1fr;
   position: relative;
   min-block-size: 668px;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .footer__title {
@@ -295,7 +293,7 @@
 
   .header__section {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, min-content);    
+    grid-template-rows: repeat(2, min-content);
   }
 
   .header__subtitle {
@@ -449,7 +447,7 @@
     margin-block-end: 60px;
   }
 
-  .main__article {    
+  .main__article {
     margin-block-end: 59px;
   }
 
