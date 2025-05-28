@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-dark {
+:root.theme-dark {  
   --accent-color: #ff0070;
   --bg-title-color: #ff0070;
   --text-shadow: #ff0070;
@@ -13,5 +13,7 @@
   --main-title-color: #db00ff;
   --paragraf-text-color: #f1b2ce;
   --button-outline-color: #ff0070;
+  --button-outline-color-hover: rgba(255 0 112/0.4);
+  --decoration-color: #ff0070;
   --page-bg-image: url(../images/cover-image-dark.png);
 }
