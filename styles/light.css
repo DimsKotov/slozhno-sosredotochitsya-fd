@@ -19,7 +19,8 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {--page-bg-image: url(../images/cover-image-light.png);
+  :root {
+    --page-bg-image: url(../images/cover-image-light.png);
     --accent-color: #353430;
     --bg-title-color: #ff8dcb;
     --main-title-color: #ffc2e6;
@@ -30,6 +31,5 @@
     --button-outline-color: #353430;
     --button-outline-color-hover: rgba(53 52 48/0.4);
     --decoration-color: transparent;
-  }      
+  }
 }
-

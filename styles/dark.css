@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-dark {  
+:root.theme-dark {
   --accent-color: #ff0070;
   --bg-title-color: #ff0070;
   --text-shadow: #ff0070;
