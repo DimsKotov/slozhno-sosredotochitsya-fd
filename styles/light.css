@@ -16,16 +16,21 @@
   --button-outline-color: #353430;
 }
 
-.theme-light .record {
-  visibility: hidden;
+@media (prefers-color-scheme: light) {
+  :root {--page-bg-image: url(../images/cover-image-light.png);
+    --accent-color: #353430;
+    --bg-title-color: #ff8dcb;
+    --main-title-color: #ffc2e6;
+    --text-shadow: #ff8dcb;
+    --subtitle-text-color: #353430;
+    --section-title-color: #353430;
+    --paragraf-text-color: #353430;
+    --button-outline-color: #353430;
+  }    
 }
 
-.theme-light .header__theme-menu-button.header__theme-menu-button_type_dark {
-  outline: none;
-}
 
-.theme-light
-  .header__theme-menu-button.header__theme-menu-button_type_light.header__theme-menu-button_active {
+.theme-light {
   outline: 1px solid var(--button-outline-color);
   outline-offset: 3px;
 }
