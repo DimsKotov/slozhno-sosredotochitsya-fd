@@ -3,8 +3,10 @@
   --main-font-size: 18px;
   --font-weight-bold: 700;
   --font-weight-normal: 400;
+  --decoration-margin: 10px;
   --accent-color: #ff0070;
   --bg-title-color: #ff0070;
+  --bg-color: #000028;
   --text-shadow: #ff0070;
   --subtitle-text-color: #000028;
   --section-title-color: #ff0070;

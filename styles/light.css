@@ -1,15 +1,10 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
   --page-bg-image: url(../images/cover-image-light.png);
   --accent-color: #353430;
   --bg-title-color: #ff8dcb;
   --main-title-color: #ffc2e6;
   --text-shadow: #ff8dcb;
+  --bg-color: #fff1f7;
   --subtitle-text-color: #353430;
   --section-title-color: #353430;
   --paragraf-text-color: #353430;
@@ -25,6 +20,7 @@
     --bg-title-color: #ff8dcb;
     --main-title-color: #ffc2e6;
     --text-shadow: #ff8dcb;
+    --bg-color: #fff1f7;
     --subtitle-text-color: #353430;
     --section-title-color: #353430;
     --paragraf-text-color: #353430;

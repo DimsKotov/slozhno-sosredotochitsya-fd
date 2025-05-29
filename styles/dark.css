@@ -1,12 +1,7 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
   --accent-color: #ff0070;
   --bg-title-color: #ff0070;
+  --bg-color: #000028;
   --text-shadow: #ff0070;
   --subtitle-text-color: #000028;
   --section-title-color: #ff0070;
